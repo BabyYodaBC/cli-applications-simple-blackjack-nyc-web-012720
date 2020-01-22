@@ -1,3 +1,4 @@
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -38,6 +39,7 @@ def hit?(card_total)
     elsif input =="s"
     card_total
   else
+    binding.pry
   invalid_command
   end
 end
