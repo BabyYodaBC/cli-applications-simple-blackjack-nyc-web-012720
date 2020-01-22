@@ -41,6 +41,7 @@ def hit?(card_total)
     card_total
   end
   if input != "h" && input != "s"
+    invalid_command
 end
 
 def invalid_command
