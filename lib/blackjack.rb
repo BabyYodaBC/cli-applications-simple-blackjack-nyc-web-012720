@@ -52,5 +52,6 @@ end
 
 def runner
   welcome
-  hand = initial_round
+  cards = initial_round
+  
 end
