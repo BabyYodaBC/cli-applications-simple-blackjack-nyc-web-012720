@@ -52,4 +52,5 @@ end
 
 def runner
   welcome
+  hand = initial_round
 end
